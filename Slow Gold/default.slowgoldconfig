@@ -1,0 +1,138 @@
+# Copyright (c) 2013 Jonathan 'Wolf' Rentzsch: http://rentzsch.com
+# Some rights reserved: http://opensource.org/licenses/mit
+
+# quickie command to get an app's bundle:
+# /usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" Contents/Info.plist
+
+# spacing template:
+#1234567890123456789  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# /Applications
+appst                 com.apple.appstore
+auto                  com.apple.Automator
+calc                  com.apple.calculator
+cal                   com.apple.iCal
+chess                 com.apple.Chess
+ab                    com.apple.AddressBook
+cont                  com.apple.AddressBook
+dv                    com.apple.DVDPlayer
+dash                  com.apple.dashboardlauncher
+dict                  com.apple.Dictionary
+f                     com.apple.finder
+face                  com.apple.FaceTime
+font                  com.apple.FontBook
+game                  com.apple.gamecenter
+imagecap              com.apple.Image_Capture
+launch                com.apple.launchpad.launcher
+m                     com.apple.mail
+im                    com.apple.iChat
+miss                  com.apple.exposelauncher
+note                  com.apple.Notes
+photo                 com.apple.PhotoBooth
+pre                   com.apple.Preview
+qt                    com.apple.QuickTimePlayerX
+remin                 com.apple.reminders
+s                     com.apple.Safari
+st                    com.apple.Stickies
+sys                   com.apple.systempreferences
+te                    com.apple.TextEdit
+tmi                   com.apple.backup.launcher
+ip                    com.apple.iPhoto
+it                    com.apple.iTunes
+
+# /Applications/Utilities
+act                   com.apple.ActivityMonitor
+airu                  com.apple.airport.airportutility
+ae                    com.apple.ScriptEditor2
+cons                  com.apple.Console
+du                    com.apple.DiskUtility
+keyc                  com.apple.keychainaccess
+sysp                  com.apple.SystemProfiler
+sysi                  com.apple.SystemProfiler
+t                     com.apple.Terminal
+
+# /Applications (Optional Apple Apps)
+x                     com.apple.dt.Xcode
+log                   com.apple.logic.pro
+
+# /Applications (Common non-Apple Apps)
+d                     com.kapeli.dash
+day                   com.dayoneapp.dayone
+sky                   com.skype.skype
+
+# ~/Applications
+ac                    com.flyingmeat.Acorn
+appc                  com.jetbrains.AppCode
+appk                  com.digitalspokes.AppKiDo
+b                     com.barebones.bbedit
+base                  uk.co.menial.Base
+bez                   com.rentzsch.BezelBanner
+bl                    com.marketcircle.Billings3
+bu                    com.busymac.busycal
+ch                    com.bitbq.Changes
+chss                  com.rentzsch.SafariSessionSaver
+cloud                 com.linebreak.CloudAppMacOSXSparkle
+cod                   com.panic.Coda2
+count                 com.yourcompany.Counter
+ef                    com.c-command.EagleFiler
+expd                  com.expandrive.ExpanDrive2
+ff                    org.mozilla.firefox
+fiss                  com.rogueamoeba.Fission
+flex                  com.red-sweater.FlexTime
+git                   nl.frim.GitX
+c                     com.google.Chrome
+htmlc                 com.apple.myCocoaApp
+hex                   com.ridiculousfish.HexFiend
+hi                    com.violasong.Hibari
+hopp                  com.bsr43.HopperWeb
+iconc                 com.apple.IconComposer
+interar               com.stairways.interarchy
+jst                   com.flyingmeat.JSTalkEditor
+joll                  de.jinx.JollysFastVNC
+kal                   com.blackpixel.kaleidoscope
+lev                   org.conversationsnetwork.levelator
+lk                    com.outerlevel.LicenseKeeper
+mo                    org.clindberg.ManOpen
+mdl                   com.rentzsch.MarkdownLive
+me                    com.red-sweater.marsedit
+meer                  net.codesorcery.Meerkat
+mind                  com.mindnode.MindNodePro
+money                 com.nothirst.moneywell.mac
+nnw                   com.ranchero.NetNewsWire
+netf                  com.fluidapp.FluidInstance.Netflix
+nv                    net.notational.velocity
+of                    com.omnigroup.OmniFocus
+og                    com.omnigroup.OmniGrafflePro
+oo                    com.omnigroup.OmniOutlinerPro3
+opa                   com.likethought.Opacity
+pac                   com.charlessoft.pacifist
+pan                   com.bitcartel.pandorajam
+pass                  com.selznick.PasswordWallet
+pear                  com.usefulfruit.Pear Note
+pest                  net.sabi.Pester
+q                     com.araeliumgroup.querious
+rip                   com.thelittleappfactory.RipIt
+s3                    net.no-distance.s3-browser
+scan                  com.rentzsch.Scan2PDF
+sf                    net.telestream.screenflow4
+sdb                   com.latenightsw.ScriptDebugger
+shr                   net.sabi.Shroud
+sk                    com.bohemiancoding.sketch.beta
+sku                   com.google.sketchupfree8
+sou                   com.acqualia.soulver
+spo                   com.spotify.client
+ste                   com.valvesoftware.steam
+sd                    com.blacey.SuperDuper!
+swi                   com.irradiatedsoftware.SwitchUp
+tp                    com.hogbaysoftware.TaskPaper.mac
+tm                    com.macromates.textmate
+timeo                 com.dejal.timeout
+tc                    com.yourcompany.TimeConverter
+timem                 com.apple.myCocoaApp
+typ                   com.macility.typinator2
+uni                   net.earthlingsoft.UnicodeChecker
+vc                    com.thevoidsoftware.valueconverter
+vf                    com.sweeterrhythm.viewfinder
+pom                   com.ugolandini.pomodoro
+white                 com.rentzsch.whiteout
+xs                    com.artissoftware.xScope
