@@ -2,10 +2,10 @@
 //  Some rights reserved: http://opensource.org/licenses/mit
 
 #import "SLGEntryWindowController.h"
-#import "SlowGoldConfig.h"
+#import "SLGConfig.h"
 
 @interface SLGEntryWindowController ()
-@property(retain, nonatomic)  SlowGoldConfig  *config;
+@property(retain, nonatomic)  SLGConfig  *config;
 @end
 
 @implementation SLGEntryWindowController
@@ -13,7 +13,7 @@
 - (id)init {
     self = [super initWithWindowNibName:@"SLGEntryWindowController"];
     if (self) {
-        _config = [[SlowGoldConfig alloc] initWithError:nil];
+        _config = [[SLGConfig alloc] initWithError:nil];
     }
     
     return self;

@@ -1,14 +1,14 @@
 //  Copyright (c) 2013 Jonathan 'Wolf' Rentzsch: http://rentzsch.com
 //  Some rights reserved: http://opensource.org/licenses/mit
 
-#import "SlowGoldConfig.h"
+#import "SLGConfig.h"
 #import "JRErr.h"
 
-@interface SlowGoldConfig ()
+@interface SLGConfig ()
 @property(retain, nonatomic)  NSMutableDictionary  *lookup;
 @end
 
-@implementation SlowGoldConfig
+@implementation SLGConfig
 
 - (id)initWithError:(NSError**)error {
     self = JRPushErr([super init]);

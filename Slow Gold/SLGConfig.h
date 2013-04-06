@@ -3,7 +3,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SlowGoldConfig : NSObject
+@interface SLGConfig : NSObject
 
 - (id)initWithError:(NSError**)error;
 - (NSString*)bundleIDForShortcut:(NSString*)shortcut;

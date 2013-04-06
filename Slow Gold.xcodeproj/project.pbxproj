@@ -17,7 +17,7 @@
 		79FEF28A17108E980090ED3A /* slow gold.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF28917108E980090ED3A /* slow gold.icns */; };
 		79FEF29017108FA60090ED3A /* SLGEntryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28C17108FA60090ED3A /* SLGEntryWindowController.m */; };
 		79FEF29117108FA60090ED3A /* SLGEntryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF28D17108FA60090ED3A /* SLGEntryWindowController.xib */; };
-		79FEF29217108FA60090ED3A /* SlowGoldConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28F17108FA60090ED3A /* SlowGoldConfig.m */; };
+		79FEF29217108FA60090ED3A /* SLGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28F17108FA60090ED3A /* SLGConfig.m */; };
 		79FEF2941710905B0090ED3A /* default.slowgoldconfig in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF2931710905B0090ED3A /* default.slowgoldconfig */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +41,8 @@
 		79FEF28B17108FA60090ED3A /* SLGEntryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGEntryWindowController.h; sourceTree = "<group>"; };
 		79FEF28C17108FA60090ED3A /* SLGEntryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGEntryWindowController.m; sourceTree = "<group>"; };
 		79FEF28D17108FA60090ED3A /* SLGEntryWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLGEntryWindowController.xib; sourceTree = "<group>"; };
-		79FEF28E17108FA60090ED3A /* SlowGoldConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlowGoldConfig.h; sourceTree = "<group>"; };
-		79FEF28F17108FA60090ED3A /* SlowGoldConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlowGoldConfig.m; sourceTree = "<group>"; };
+		79FEF28E17108FA60090ED3A /* SLGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGConfig.h; sourceTree = "<group>"; };
+		79FEF28F17108FA60090ED3A /* SLGConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGConfig.m; sourceTree = "<group>"; };
 		79FEF2931710905B0090ED3A /* default.slowgoldconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.slowgoldconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,8 +103,8 @@
 				79FEF28B17108FA60090ED3A /* SLGEntryWindowController.h */,
 				79FEF28C17108FA60090ED3A /* SLGEntryWindowController.m */,
 				79FEF28D17108FA60090ED3A /* SLGEntryWindowController.xib */,
-				79FEF28E17108FA60090ED3A /* SlowGoldConfig.h */,
-				79FEF28F17108FA60090ED3A /* SlowGoldConfig.m */,
+				79FEF28E17108FA60090ED3A /* SLGConfig.h */,
+				79FEF28F17108FA60090ED3A /* SLGConfig.m */,
 				79FEF28617108E020090ED3A /* JRErr.h */,
 				79FEF28717108E020090ED3A /* JRErr.m */,
 				79FEF27017108CE10090ED3A /* Supporting Files */,
@@ -198,7 +198,7 @@
 				79FEF27D17108CE10090ED3A /* SLGAppDelegate.m in Sources */,
 				79FEF28817108E020090ED3A /* JRErr.m in Sources */,
 				79FEF29017108FA60090ED3A /* SLGEntryWindowController.m in Sources */,
-				79FEF29217108FA60090ED3A /* SlowGoldConfig.m in Sources */,
+				79FEF29217108FA60090ED3A /* SLGConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
