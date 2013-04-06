@@ -48,7 +48,7 @@
     NSString *bundleID = [self.config bundleIDForShortcut:[self.entryField stringValue]];
     if (bundleID) {
         [[NSWorkspace sharedWorkspace] launchAppWithBundleIdentifier:bundleID
-                                                             options:NSWorkspaceLaunchDefault
+                                                             options:0
                                       additionalEventParamDescriptor:nil
                                                     launchIdentifier:nil];
     }
