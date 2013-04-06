@@ -55,6 +55,8 @@
     [self.entryField setStringValue:@""];
     [self.matchImageView setImage:nil];
     [self.matchLabel setStringValue:@""];
+    
+    [[NSRunningApplication currentApplication] hide];
 }
 
 @end
