@@ -14,6 +14,7 @@
 		79FEF27D17108CE10090ED3A /* SLGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF27C17108CE10090ED3A /* SLGAppDelegate.m */; };
 		79FEF28017108CE10090ED3A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF27E17108CE10090ED3A /* MainMenu.xib */; };
 		79FEF28817108E020090ED3A /* JRErr.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28717108E020090ED3A /* JRErr.m */; };
+		79FEF28A17108E980090ED3A /* slow gold.icns in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF28917108E980090ED3A /* slow gold.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		79FEF27F17108CE10090ED3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		79FEF28617108E020090ED3A /* JRErr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRErr.h; path = dependancies/JRErr/JRErr/JRErr.h; sourceTree = SOURCE_ROOT; };
 		79FEF28717108E020090ED3A /* JRErr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRErr.m; path = dependancies/JRErr/JRErr/JRErr.m; sourceTree = SOURCE_ROOT; };
+		79FEF28917108E980090ED3A /* slow gold.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "slow gold.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		79FEF25D17108CE10090ED3A = {
 			isa = PBXGroup;
 			children = (
+				79FEF28917108E980090ED3A /* slow gold.icns */,
 				79FEF26F17108CE10090ED3A /* Slow Gold */,
 				79FEF26817108CE10090ED3A /* Frameworks */,
 				79FEF26717108CE10090ED3A /* Products */,
@@ -162,6 +165,7 @@
 				79FEF27417108CE10090ED3A /* InfoPlist.strings in Resources */,
 				79FEF27A17108CE10090ED3A /* Credits.rtf in Resources */,
 				79FEF28017108CE10090ED3A /* MainMenu.xib in Resources */,
+				79FEF28A17108E980090ED3A /* slow gold.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
