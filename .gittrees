@@ -1,0 +1,4 @@
+[subtree "dependancies/JRErr"]
+	url = git@github.com:rentzsch/JRErr.git
+	path = dependancies/JRErr
+	branch = semver-1.x
