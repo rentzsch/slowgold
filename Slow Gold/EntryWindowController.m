@@ -4,15 +4,6 @@
 #import "EntryWindowController.h"
 #import "SlowGoldConfig.h"
 
-static NSMutableArray* controllers() {
-    static NSMutableArray *result = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        result = [[NSMutableArray alloc] init];
-    });
-    return result;
-}
-
 @interface EntryWindowController ()
 @property(retain, nonatomic)  SlowGoldConfig  *config;
 @end
@@ -22,11 +13,15 @@ static NSMutableArray* controllers() {
 - (id)init {
     self = [super initWithWindowNibName:@"EntryWindowController"];
     if (self) {
-        [controllers() addObject:self];
         _config = [[SlowGoldConfig alloc] initWithError:nil];
     }
     
     return self;
+}
+
+- (void)dealloc {
+    [_config release];
+    [super dealloc];
 }
 
 - (void)windowDidLoad {
