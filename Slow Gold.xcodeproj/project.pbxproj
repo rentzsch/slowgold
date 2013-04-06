@@ -19,6 +19,7 @@
 		79FEF29117108FA60090ED3A /* SLGEntryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF28D17108FA60090ED3A /* SLGEntryWindowController.xib */; };
 		79FEF29217108FA60090ED3A /* SLGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28F17108FA60090ED3A /* SLGConfig.m */; };
 		79FEF2941710905B0090ED3A /* default.slowgoldconfig in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF2931710905B0090ED3A /* default.slowgoldconfig */; };
+		79FEF296171092F00090ED3A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FEF295171092F00090ED3A /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		79FEF28E17108FA60090ED3A /* SLGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGConfig.h; sourceTree = "<group>"; };
 		79FEF28F17108FA60090ED3A /* SLGConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGConfig.m; sourceTree = "<group>"; };
 		79FEF2931710905B0090ED3A /* default.slowgoldconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.slowgoldconfig; sourceTree = "<group>"; };
+		79FEF295171092F00090ED3A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FEF296171092F00090ED3A /* Carbon.framework in Frameworks */,
 				79FEF26A17108CE10090ED3A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				79FEF26917108CE10090ED3A /* Cocoa.framework */,
+				79FEF295171092F00090ED3A /* Carbon.framework */,
 				79FEF26B17108CE10090ED3A /* Other Frameworks */,
 			);
 			name = Frameworks;
