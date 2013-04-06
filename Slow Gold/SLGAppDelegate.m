@@ -1,17 +1,11 @@
-//
-//  SLGAppDelegate.m
-//  Slow Gold
-//
-//  Created by Wolf Rentzsch on 4/6/13.
-//  Copyright (c) 2013 Jonathan 'Wolf' Rentzsch. All rights reserved.
-//
+//  Copyright (c) 2013 Jonathan 'Wolf' Rentzsch: http://rentzsch.com
+//  Some rights reserved: http://opensource.org/licenses/mit
 
 #import "SLGAppDelegate.h"
 
 @implementation SLGAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
+- (void)applicationDidFinishLaunching:(NSNotification*)notification {
     // Insert code here to initialize your application
 }
 
