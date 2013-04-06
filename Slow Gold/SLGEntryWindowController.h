@@ -3,7 +3,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface EntryWindowController : NSWindowController
+@interface SLGEntryWindowController : NSWindowController
 @property(assign, nonatomic)  IBOutlet NSTextField  *entryField;
 @property(assign, nonatomic)  IBOutlet NSImageView  *matchImageView;
 @property(assign, nonatomic)  IBOutlet NSTextField  *matchLabel;

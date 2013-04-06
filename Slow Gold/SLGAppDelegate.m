@@ -2,12 +2,12 @@
 //  Some rights reserved: http://opensource.org/licenses/mit
 
 #import "SLGAppDelegate.h"
-#import "EntryWindowController.h"
+#import "SLGEntryWindowController.h"
 
 @implementation SLGAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification*)notification {
-    [[EntryWindowController new].window makeKeyAndOrderFront:nil];
+    [[SLGEntryWindowController new].window makeKeyAndOrderFront:nil];
 }
 
 @end
