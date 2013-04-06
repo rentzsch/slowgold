@@ -51,7 +51,6 @@
 		79FEF25D17108CE10090ED3A = {
 			isa = PBXGroup;
 			children = (
-				79FEF28917108E980090ED3A /* slow gold.icns */,
 				79FEF26F17108CE10090ED3A /* Slow Gold */,
 				79FEF26817108CE10090ED3A /* Frameworks */,
 				79FEF26717108CE10090ED3A /* Products */,
@@ -101,6 +100,7 @@
 		79FEF27017108CE10090ED3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79FEF28917108E980090ED3A /* slow gold.icns */,
 				79FEF27117108CE10090ED3A /* Slow Gold-Info.plist */,
 				79FEF27217108CE10090ED3A /* InfoPlist.strings */,
 				79FEF27517108CE10090ED3A /* main.m */,
