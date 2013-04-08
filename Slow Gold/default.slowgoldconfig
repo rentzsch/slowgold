@@ -52,6 +52,9 @@ sysi                  com.apple.SystemProfiler
 t                     com.apple.Terminal
 
 # /Applications (Optional Apple Apps)
+k                     com.apple.iWork.Keynote
+page                  com.apple.iWork.Pages
+num                   com.apple.iWork.Numbers
 x                     com.apple.dt.Xcode
 log                   com.apple.logic.pro
 
