@@ -1,0 +1,11 @@
+MUST
+- Escape key closes window
+- Config File Syntax Reboot
+	- Write new parsers
+	- Convert current config file into new format
+
+SHOULD
+- Watch ~/L/AS/Slow Gold for config changes
+	- UKKQueue, SCEvents or https://github.com/bdkjones/VDKQueue
+
+NICE

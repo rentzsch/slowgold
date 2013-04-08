@@ -20,6 +20,7 @@
 		79FEF29217108FA60090ED3A /* SLGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF28F17108FA60090ED3A /* SLGConfig.m */; };
 		79FEF2941710905B0090ED3A /* default.slowgoldconfig in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF2931710905B0090ED3A /* default.slowgoldconfig */; };
 		79FEF296171092F00090ED3A /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FEF295171092F00090ED3A /* Carbon.framework */; };
+		79FEF29817134C7F0090ED3A /* TODO.taskpaper in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF29717134C7F0090ED3A /* TODO.taskpaper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		79FEF28F17108FA60090ED3A /* SLGConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGConfig.m; sourceTree = "<group>"; };
 		79FEF2931710905B0090ED3A /* default.slowgoldconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = default.slowgoldconfig; sourceTree = "<group>"; };
 		79FEF295171092F00090ED3A /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		79FEF29717134C7F0090ED3A /* TODO.taskpaper */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.taskpaper; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		79FEF25D17108CE10090ED3A = {
 			isa = PBXGroup;
 			children = (
+				79FEF29717134C7F0090ED3A /* TODO.taskpaper */,
 				79FEF26F17108CE10090ED3A /* Slow Gold */,
 				79FEF26817108CE10090ED3A /* Frameworks */,
 				79FEF26717108CE10090ED3A /* Products */,
@@ -188,6 +191,7 @@
 				79FEF28A17108E980090ED3A /* slow gold.icns in Resources */,
 				79FEF29117108FA60090ED3A /* SLGEntryWindowController.xib in Resources */,
 				79FEF2941710905B0090ED3A /* default.slowgoldconfig in Resources */,
+				79FEF29817134C7F0090ED3A /* TODO.taskpaper in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
