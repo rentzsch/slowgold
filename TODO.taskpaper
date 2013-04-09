@@ -1,11 +1,23 @@
 MUST
 - Escape key closes window
 - Config File Syntax Reboot
-	- Write new parsers
-	- Convert current config file into new format
+	- Write new parsers @done
+	- Convert current config file into new format @done
+	- Add Support for URLs
+		- queries (entry keys are regexs?)
+	- Add Support for Paths
+		- absolute
+		- home-based (~)
+		- add Sys Pref Pane abs paths to Apple-default config
+	- Add Support for Scripts
+		- blast to entry.data to /tmp/snowgoldscript.sh and execute?
 
 SHOULD
-- Watch ~/L/AS/Slow Gold for config changes
-	- UKKQueue, SCEvents or https://github.com/bdkjones/VDKQueue
+- Show/Hide Floating Window instead of App Switching
+- Use ~/Library/Application Support/Slow Gold for configuration files
+	- move wolf stuff into wolf.slowgoldconfig
 
 NICE
+- Watch ~/L/AS/Slow Gold for config changes and auto-reload
+	- UKKQueue, SCEvents or https://github.com/bdkjones/VDKQueue
+- UI for presenting config file syntax errors
