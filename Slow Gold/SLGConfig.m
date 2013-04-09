@@ -3,6 +3,8 @@
 
 #import "SLGConfig.h"
 #import "JRErr.h"
+#import "SLGConfigParser.h"
+#import "Hypo.h"
 
 @interface SLGConfig ()
 @property(retain, nonatomic)  NSMutableDictionary  *lookup;
@@ -30,22 +32,14 @@
                                                            error:jrErrRef]);
     }
     
-    NSRegularExpression *validConfigLineRegex;
     if (!jrErr) {
-        validConfigLineRegex = JRPushErr([NSRegularExpression regularExpressionWithPattern:@"^([^ #]+) +(.+)$"
-                                                                                   options:NSRegularExpressionAnchorsMatchLines
-                                                                                     error:jrErrRef]);
-    }
-    
-    if (!jrErr) {
-        [validConfigLineRegex enumerateMatchesInString:configFile
-                                               options:0
-                                                 range:NSMakeRange(0, [configFile length])
-                                            usingBlock:^(NSTextCheckingResult *result, NSMatchingFlags flags, BOOL *stop) {
-                                                NSString *shortcut = [configFile substringWithRange:[result rangeAtIndex:1]];
-                                                NSString *bundleID = [configFile substringWithRange:[result rangeAtIndex:2]];
-                                                [_lookup setObject:bundleID forKey:shortcut];
-                                            }];
+        SLGConfigParser *parser = [SLGConfigParser hypo_new];
+        JRPushErr([parser parse:configFile
+             filename:[configURL lastPathComponent]
+                error:jrErrRef
+                block:^(id<SLGEntryProtocol> entry) {
+                    [_lookup setObject:entry forKey:entry.key];
+                }]);
     }
     
     returnJRErr(self);
@@ -57,7 +51,8 @@
 }
 
 - (NSString*)bundleIDForShortcut:(NSString*)shortcut {
-    return [self.lookup objectForKey:shortcut];
+    SLGBundleEntry *bundleEntry = [self.lookup objectForKey:shortcut];
+    return bundleEntry.data;
 }
 
 @end

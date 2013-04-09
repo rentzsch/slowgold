@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7932250517138A0800EF4D04 /* SLGConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7932250417138A0800EF4D04 /* SLGConfigParser.m */; };
+		793225081713911D00EF4D04 /* Hypo.m in Sources */ = {isa = PBXBuildFile; fileRef = 793225071713911D00EF4D04 /* Hypo.m */; };
 		79FEF26A17108CE10090ED3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FEF26917108CE10090ED3A /* Cocoa.framework */; };
 		79FEF27417108CE10090ED3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79FEF27217108CE10090ED3A /* InfoPlist.strings */; };
 		79FEF27617108CE10090ED3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FEF27517108CE10090ED3A /* main.m */; };
@@ -24,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79322502171389C200EF4D04 /* JREnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JREnum.h; path = dependancies/JREnum/JREnum.h; sourceTree = SOURCE_ROOT; };
+		7932250317138A0800EF4D04 /* SLGConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGConfigParser.h; sourceTree = "<group>"; };
+		7932250417138A0800EF4D04 /* SLGConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGConfigParser.m; sourceTree = "<group>"; };
+		793225061713911D00EF4D04 /* Hypo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hypo.h; path = ../../hypo/Hypo/Hypo.h; sourceTree = "<group>"; };
+		793225071713911D00EF4D04 /* Hypo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Hypo.m; path = ../../hypo/Hypo/Hypo.m; sourceTree = "<group>"; };
 		79FEF26617108CE10090ED3A /* Slow Gold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slow Gold.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FEF26917108CE10090ED3A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		79FEF26C17108CE10090ED3A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -112,6 +119,11 @@
 				79FEF28D17108FA60090ED3A /* SLGEntryWindowController.xib */,
 				79FEF28E17108FA60090ED3A /* SLGConfig.h */,
 				79FEF28F17108FA60090ED3A /* SLGConfig.m */,
+				7932250317138A0800EF4D04 /* SLGConfigParser.h */,
+				7932250417138A0800EF4D04 /* SLGConfigParser.m */,
+				793225061713911D00EF4D04 /* Hypo.h */,
+				793225071713911D00EF4D04 /* Hypo.m */,
+				79322502171389C200EF4D04 /* JREnum.h */,
 				79FEF28617108E020090ED3A /* JRErr.h */,
 				79FEF28717108E020090ED3A /* JRErr.m */,
 				79FEF27017108CE10090ED3A /* Supporting Files */,
@@ -207,6 +219,8 @@
 				79FEF28817108E020090ED3A /* JRErr.m in Sources */,
 				79FEF29017108FA60090ED3A /* SLGEntryWindowController.m in Sources */,
 				79FEF29217108FA60090ED3A /* SLGConfig.m in Sources */,
+				7932250517138A0800EF4D04 /* SLGConfigParser.m in Sources */,
+				793225081713911D00EF4D04 /* Hypo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
