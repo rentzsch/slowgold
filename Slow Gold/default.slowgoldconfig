@@ -149,6 +149,9 @@ com.apple.iWork.Numbers
 x
 com.apple.dt.Xcode
 
+sim
+com.apple.iphonesimulator
+
 log
 com.apple.logic.pro
 
